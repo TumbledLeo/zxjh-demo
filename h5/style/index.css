@@ -1,0 +1,243 @@
+/*reset*/
+body, dl, dt, dd, ul, ol, li, pre, form, fieldset, input, p, blockquote, th, td ,h2,h4,h5,h6{
+    margin:0;
+    padding:0;
+    /* width:100%; */
+}
+*{
+    font-family: PingFangSC-Regular,'Microsoft YaHei', sans-serif;
+    font-weight: normal;
+}
+ol, ul {
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+}
+li {
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    }
+    img, fieldset {
+    border:0 none;
+}
+/*清除浮动代码*/
+.cf:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.cf{zoom:1}
+
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.swiper-container {
+    width: 100%;
+    height:400px;
+    overflow: hidden;
+}
+.swiper-container  img{
+    width:100%;
+
+}
+.fl{
+    width:100%;
+    height:125px;
+    background:rgba(1,1,1,0.7);
+    position: absolute;
+    bottom:0;
+    font-size:30px;
+    line-height:76px;
+    color:#fff;
+    letter-spacing: 1px;
+}
+.slide_me{
+    position: relative;
+}
+
+/*政策汇编2*/
+.zchb2{
+    width:100%;
+    height:100%;
+    position: relative;
+    background:#032d55;
+    overflow: hidden;
+}
+.zchb2 .bg ,.zchb .btn2{
+    width:100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.zchb2 a{
+    display:block;
+    width:248px;
+    height:80px;
+    position:fixed;
+    top:80%;
+    left:50%;
+    margin-left:-126px;
+}
+/*h5-政策解读*/
+.zcjd{
+    background:#242e42;
+    color:#fff;
+    height:100%;
+}
+.zcjd img{
+    width:100%;
+}
+.zcjd .banner{
+    width:96%;
+    margin:0 auto 50px;
+    text-align: center;
+    font-size:26px;
+}
+.zcjd .banner li{
+    width:25%;
+}
+.zcjd .banner li img{
+    width:80%;
+}
+.zcjd .go{
+    font-size:36px;
+    margin:20px;
+}
+.zcjd .go li{
+    background:#2d649e;
+    height:120px;
+    line-height:120px;
+    margin-bottom:20px;
+    border-radius:20px;
+    padding:0 40px;
+
+}
+.zcjd .go  a{
+    display:block;
+    text-decoration: none;
+    color:#fff;
+    background:url(../img/dian.png)no-repeat right center;
+}
+/*环境政策*/
+.hjzc{
+    width:100%;
+    height:100%;
+    background:#242e42;
+}
+.hjzc .bg img {
+    width:100%;
+}
+.hjzc .list{
+    margin:20px;
+}
+.hjzc .list li{
+    width:100%;
+    position: relative;
+    border-bottom:2px solid #3a4355;
+}
+.hjzc .list li a {
+    display:inline-block;
+    width:94%;
+}
+.hjzc .list li p{
+    font-size:30px;
+    color:#f0f1f2;
+    display:inline-block;
+    padding-left:82px;
+    padding-top:20px;
+    font-weight: 300;
+}
+.hjzc .list li span{
+    display:inline-block;
+    width:60px;
+    height:40px;
+    border-radius: 30px;
+    background:#2d76c0;
+    text-align: center;
+    line-height:40px;
+    color:#f0f1f2;
+    font-size:36px;
+    position: absolute;
+    top:30px;
+    font-style:italic;
+    /* font-style:oblique; */
+}
+.hjzc .list li .ss{
+    display:block;
+    float:right;
+    color:#7c828e;
+    font-size:24px;
+    text-decoration: none;
+    /* width:100px; */
+    width:0;
+    text-align: center;
+    padding:20px;
+    /* margin-top:20px; */
+    margin-top:40px;
+    /* border-left:1px solid #3a4355; */
+    position: relative;
+}
+.hjzc .list li .ss::after{
+    position: absolute;
+    right: 5px;
+    top: 44%;
+    content:'';
+    width:0;
+    height:0;
+    overflow: hidden;
+    border-width:8px;
+    border-color:transparent transparent transparent #2c7dce;
+    border-style:dashed dashed dashed solid;
+}
+#swiper-container1 {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.jd{
+    width:100%;
+    color:#fff;
+    text-align: center;
+    color:#000000;
+}
+.jd img{
+    width:100%;
+}
+.jd h2{
+    font-size:18px;   
+    margin:40px auto;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.jd h2 span{
+    font-size:14px;
+}
+.jd h3{
+    font-size:17px; 
+    font-weight: bold;
+}
+.jd h4{
+    font-size:16px; 
+    margin:20px;
+}
+.jd .inner{
+    margin:30px 20px 0;
+    text-align: left;
+}
+.jd p{
+    overflow:hidden;
+    display:block;
+    text-align:left;
+    line-height:30px;
+    font-size:16px;
+    text-align: justify; 
+    font-weight:100;
+    text-indent: 2em !important;
+}
+.return{
+    position: fixed;
+    bottom:40px;
+    right:40px;
+    z-index:99;
+    width: 40px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html5>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5,user-scalable=no,">
+
+    <title>大会资讯</title>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/swiper-4.3.5.min.css">
+    <script src="js/swiper-4.3.5.min.js" ></script>
+</head>
+<body>
+    <div class="header">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide_me">
+                    <img src="img/dhzx_banner1.jpg" alt="">
+                    <div class="fl">
+                            密云区第二届经济发展大会暨优化营商环境大会
+                    </div>
+                </div>
+                <div class="swiper-slide slide_me">
+                    <img src="img/dhzx_banner2.jpg" alt="">
+                    <div class="fl">
+                            密云区第二届经济发展大会暨优化营商环境大会
+                    </div>
+                </div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <ul class="cf news">
+        <li class="inner">
+            <div class="left text">
+                <h2 class="title">密云区第二届经济发展大会暨优化<br/>
+                        营商环境大会</h2>
+                <p class="time">2018-09-10  12:00</p>
+            </div>
+            <div class="right show_img">
+                <img src="img/dhzx_1.jpg" alt="">
+            </div>
+        </li>
+        <li class="inner">
+            <div class="left text">
+                <h2 class="title">密云区经济发展大会《美丽密云》</h2>
+                <p class="time">2018-09-10  12:00</p>
+            </div>
+            <div class="right show_img">
+                <img src="img/dhzx_2.jpg" alt="">
+            </div>
+        </li>
+        <li class="inner">
+                <div class="left text">
+                    <h2 class="title">《密云服务，品牌有我》</h2>
+                    <p class="time">2018-09-10  12:00</p>
+                </div>
+                <div class="right show_img">
+                    <img src="img/dhzx_3.jpg" alt="">
+                </div>
+        </li>
+        <li class="inner">
+                <div class="left text">
+                    <h2 class="title">密云区经济发展大会企业代表述说<br/>
+                            与演讲</h2>
+                    <p class="time">2018-09-10  12:00</p>
+                </div>
+                <div class="right show_img">
+                    <img src="img/dhzx_4.jpg" alt="">
+                </div>
+        </li>
+    </ul>
+    <script>        
+            var mySwiper = new Swiper ('.swiper-container', {
+              direction:'horizontal',
+              loop: true,                 
+              // 如果需要分页器
+              pagination: {
+                el: '.swiper-pagination',
+              },
+            })        
+</script>
+</body>
+</html>

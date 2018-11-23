@@ -1,0 +1,80 @@
+<!DOCTYPE html5>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5,user-scalable=no,">
+
+    <title>上届回顾</title>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/swiper-4.3.5.min.css">
+    <script src="js/swiper-4.3.5.min.js" ></script>
+</head>
+<body>
+    <div class="header">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide_me">
+                    <img src="img/dhzx_banner1.jpg" alt="">
+                    <div class="fl">
+                            密云区第二届经济发展大会暨优化营商环境大会
+                    </div>
+                </div>
+                <div class="swiper-slide slide_me">
+                    <img src="img/dhzx_banner2.jpg" alt="">
+                    <div class="fl">
+                            密云区第二届经济发展大会暨优化营商环境大会
+                    </div>
+                </div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="title">大会资讯</div>
+    </div>
+    <div class="zixun">
+        <p>密云区第一届经济发展大会暨优化营商环境大会</p>
+        <p>蔡奇到密云调研：守护好绿水青山是生态涵养</p>
+        <p>密云区档案局举办2018年机关档案工作测评推</p>
+        <p>穆家峪镇召开系列会议，部署当前工作</p>
+    </div>
+    <div class="main">
+        <div class="title">精彩瞬间</div>
+    </div>
+    <div class="sjhg">
+        <div class="item item-1"><img src="img/sjhg_1.jpg" alt=""></div>
+        <div class="item item-1"><img src="img/sjhg_2.jpg" alt=""></div>
+        <div class="item item-1"><img src="img/sjhg_3.jpg" alt=""></div>
+        <div class="item item-1"><img src="img/sjhg_4.jpg" alt=""></div>
+        <div class="item item-1"><img src="img/sjhg_5.jpg" alt=""></div>
+        <div class="item item-1"><img src="img/sjhg_6.jpg" alt=""></div>
+    </div>
+    <ul class="cf medc">
+        <li class="left">
+            <img src="img/sjhg_bg_1.png" alt="">
+            <p>全区有影响力的产业合作平台</p>
+        </li>
+        <li class="left">
+             <img src="img/sjhg_bg_2.png" alt="">
+             <p>推动互全区市场的快速增长与广泛合作</p>
+             
+         </li>
+         <li class="left">
+             <img src="img/sjhg_bg_3.png" alt="">
+             <p>开放、共享、专业</p>
+             <p>前瞻、互利、共赢</p>
+         </li>
+    </ul>
+    <script>        
+            var mySwiper = new Swiper ('.swiper-container', {
+              direction:'horizontal',
+              loop: true,                 
+              // 如果需要分页器
+              pagination: {
+                el: '.swiper-pagination',
+              },
+            })        
+</script>
+</body>
+</html>
